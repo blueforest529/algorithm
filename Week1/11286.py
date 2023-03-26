@@ -20,8 +20,3 @@ for i in range(len(arr)):
             print(heapq.heappop(heap)[1])
         else :
             print(0)
-
-
-    
-
-# print(heap)
