@@ -28,6 +28,8 @@ def dfs(x, y):
 
 
 n = int(sys.stdin.readline())
+visited = [-1] * (n + 1) 
+visited[1] = 0 
 
 graph = [[] for _ in range(n + 1)]
 for _ in range(n - 1):
@@ -35,14 +37,15 @@ for _ in range(n - 1):
     graph[a].append([b, c])
     graph[b].append([a, c])
 
-visited = [-1] * (n + 1) 
-visited[1] = 0 
+
 dfs(1, 0) 
 
-start = visited.index(max(visited))
+print(visited.index(max(visited)))
 
+start = visited.index(max(visited))
 visited = [-1] * (n + 1) 
 visited[start] = 0 
+
 dfs(start, 0) 
 
 print(max(visited))
