@@ -1,7 +1,7 @@
 # 접미사 배열2
 # abcdabcabb
 
-S = input()
+S = "abcdabcabb"
 N = len(S)
 suffix_array = [0] * N
 rank = [0] * N
