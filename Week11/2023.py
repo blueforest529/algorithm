@@ -12,7 +12,7 @@ def dfs(number):
         return
     if len(str(number)) == n:
         print(number)
-    for i in range(1,10,2):
+    for i in range(1,10,2): #13579
         dfs(number*10 + i)
     return
 

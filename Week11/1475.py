@@ -36,4 +36,6 @@ for i in num:
     else:
         checked[int(i)] += 1
 
+print(checked)
+
 print(max(checked))
