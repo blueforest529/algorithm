@@ -10,4 +10,4 @@ for i in range(N):
 # 키 값 기준으로 오름차순
 sorted_dict = dict(sorted(books.items(), key=lambda item: item[0]))
 
-print(max(sorted_dict, key=sorted_dict.get))
+# print(max(sorted_dict, key=sorted_dict.get))
