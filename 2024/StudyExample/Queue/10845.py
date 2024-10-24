@@ -15,6 +15,8 @@ pop
 push 3
 empty
 push 1
+
+12312321
 """
 
 import sys
