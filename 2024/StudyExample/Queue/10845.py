@@ -12,7 +12,7 @@ pop
 size
 empty
 pop
-push 3
+push 3wtwetwt
 empty
 push 1
 """
